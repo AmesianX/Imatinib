@@ -1,7 +1,8 @@
 # Imatinib
 Imatinib is a instrumentation tool that uses the only inline patch hooking.<br>
 <br>
-The build has been tested with Visual Studio 2017.<br>
+The build has been tested with Visual Studio 2017<br>
+Detours 4.01 and WTL have been updated.<br>
 We plan to provide it soon as x64dbg plugin.<br>
 (It no longer supports Visual Studio 6.0.)<br>
 <br>
