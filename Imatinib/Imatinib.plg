@@ -1,0 +1,218 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Imatinib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\OCCULT~1\AppData\Local\Temp\RSP6C9B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /D _WIN32_WINNT=0x0501 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /Fr"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\cygwin\home\occulteast\project\Imatinib\Imatinib\Detours.cpp"
+"C:\cygwin\home\occulteast\project\Imatinib\Imatinib\DllMain.cpp"
+"C:\cygwin\home\occulteast\project\Imatinib\Imatinib\HelperFunctions.cpp"
+"C:\cygwin\home\occulteast\project\Imatinib\Imatinib\IniFileHandlers.cpp"
+"C:\cygwin\home\occulteast\project\Imatinib\Imatinib\MemorySearchFunctions.cpp"
+"C:\cygwin\home\occulteast\project\Imatinib\Imatinib\psapi.cpp"
+"C:\cygwin\home\occulteast\project\Imatinib\Imatinib\ReverseCodeEngine.cpp"
+"C:\cygwin\home\occulteast\project\Imatinib\Imatinib\ServerStartStop.cpp"
+"C:\cygwin\home\occulteast\project\Imatinib\Imatinib\toolhelp.cpp"
+]
+Creating command line "cl.exe @C:\Users\OCCULT~1\AppData\Local\Temp\RSP6C9B.tmp" 
+Creating temporary file "C:\Users\OCCULT~1\AppData\Local\Temp\RSP6C9C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ws2_32.lib Detours.lib capstone_dll.lib /nologo /dll /pdb:none /machine:I386 /nodefaultlib:"libcmt.lib libcpmt.lib" /out:"Release/Imatinib.dll" /implib:"Release/Imatinib.lib" 
+.\Release\Detours.obj
+.\Release\DllMain.obj
+.\Release\HelperFunctions.obj
+.\Release\IniFileHandlers.obj
+.\Release\MemorySearchFunctions.obj
+.\Release\psapi.obj
+.\Release\ReverseCodeEngine.obj
+.\Release\ServerStartStop.obj
+.\Release\toolhelp.obj
+]
+Creating command line "link.exe @C:\Users\OCCULT~1\AppData\Local\Temp\RSP6C9C.tmp"
+<h3>Output Window</h3>
+Compiling...
+Detours.cpp
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(1038) : error C2440: 'initializing' : cannot convert from '' to 'struct HDESK__ *(__stdcall *)(char *,char *,struct _devicemodeA *,unsigned long,unsigned long,struct _SECURITY_ATTRIBUTES *)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(1057) : error C2440: 'initializing' : cannot convert from '' to 'struct HDESK__ *(__stdcall *)(unsigned short *,unsigned short *,struct _devicemodeW *,unsigned long,unsigned long,struct _SECURITY_ATTRIBUTES *)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(1307) : error C2440: 'initializing' : cannot convert from '' to 'struct HWND__ *(__stdcall *)(char *,char *,unsigned long,int,int,int,int,struct HWND__ *,struct HINSTANCE__ *,long)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(1333) : error C2440: 'initializing' : cannot convert from '' to 'struct HWND__ *(__stdcall *)(unsigned short *,unsigned short *,unsigned long,int,int,int,int,struct HWND__ *,struct HINSTANCE__ *,long)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(1648) : error C2440: 'initializing' : cannot convert from '' to 'struct HWINSTA__ *(__stdcall *)(char *,unsigned long,unsigned long,struct _SECURITY_ATTRIBUTES *)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(1662) : error C2440: 'initializing' : cannot convert from '' to 'struct HWINSTA__ *(__stdcall *)(unsigned short *,unsigned long,unsigned long,struct _SECURITY_ATTRIBUTES *)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(2413) : error C2440: 'initializing' : cannot convert from '' to 'int (__stdcall *)(struct HINSTANCE__ *,const unsigned short *,const unsigned short *,int (__stdcall *)(struct HINSTANCE__ *,const char *,const char *,unsigned short,long),long)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(2443) : error C2440: 'initializing' : cannot convert from '' to 'int (__stdcall *)(struct HINSTANCE__ *,const unsigned short *,int (__stdcall *)(struct HINSTANCE__ *,const char *,char *,long),long)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(2469) : error C2440: 'initializing' : cannot convert from '' to 'int (__stdcall *)(struct HINSTANCE__ *,int (__stdcall *)(struct HINSTANCE__ *,char *,long),long)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(4171) : error C2440: 'initializing' : cannot convert from '' to 'unsigned long (__stdcall *)(struct HDC__ *,const char *,int,int,int *)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(4187) : error C2440: 'initializing' : cannot convert from '' to 'unsigned long (__stdcall *)(struct HDC__ *,const unsigned short *,int,int,int *)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(4535) : error C2440: 'initializing' : cannot convert from '' to 'unsigned int (__stdcall *)(unsigned long)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(4974) : error C2440: 'initializing' : cannot convert from '' to 'void *(__stdcall *)(unsigned int,unsigned int)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(4984) : error C2440: 'initializing' : cannot convert from '' to 'unsigned int (__stdcall *)(unsigned int)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(5008) : error C2440: 'initializing' : cannot convert from '' to 'void *(__stdcall *)(void *,unsigned int,unsigned int)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(5020) : error C2440: 'initializing' : cannot convert from '' to 'unsigned int (__stdcall *)(void *,unsigned int)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(5030) : error C2440: 'initializing' : cannot convert from '' to 'unsigned int (__stdcall *)(void *)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(5158) : error C2440: 'initializing' : cannot convert from '' to 'int (__stdcall *)(struct tagMSGBOXPARAMSA *)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(5166) : error C2440: 'initializing' : cannot convert from '' to 'int (__stdcall *)(struct tagMSGBOXPARAMSW *)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(5248) : error C2440: 'initializing' : cannot convert from '' to 'unsigned long (__stdcall *)(unsigned long,void ** ,int,unsigned long,unsigned long)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(5264) : error C2440: 'initializing' : cannot convert from '' to 'unsigned long (__stdcall *)(unsigned long,void ** ,unsigned long,unsigned long,unsigned long)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(5668) : error C2440: 'initializing' : cannot convert from '' to 'struct HDESK__ *(__stdcall *)(char *,unsigned long,int,unsigned long)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(5682) : error C2440: 'initializing' : cannot convert from '' to 'struct HDESK__ *(__stdcall *)(unsigned short *,unsigned long,int,unsigned long)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(5770) : error C2440: 'initializing' : cannot convert from '' to 'struct HWINSTA__ *(__stdcall *)(char *,int,unsigned long)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(5782) : error C2440: 'initializing' : cannot convert from '' to 'struct HWINSTA__ *(__stdcall *)(unsigned short *,int,unsigned long)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7283) : error C2440: 'initializing' : cannot convert from '' to 'long (__stdcall *)(const unsigned short *,unsigned long,unsigned long,unsigned long,void *,void *,const struct _GUID &,void ** )'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7340) : error C2440: 'initializing' : cannot convert from '' to 'long (__stdcall *)(const unsigned short *,unsigned long,unsigned long,unsigned long,void *,void *,const struct _GUID &,void ** )'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7474) : error C2440: 'initializing' : cannot convert from '' to 'long (__stdcall *)(struct HDC__ *,int,int,const char *,int,int,int *,int)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7496) : error C2440: 'initializing' : cannot convert from '' to 'long (__stdcall *)(struct HDC__ *,int,int,const unsigned short *,int,int,int *,int)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7547) : error C2440: 'initializing' : cannot convert from '' to 'int (__stdcall *)(unsigned int,unsigned int,unsigned char *,unsigned short *,unsigned int)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7563) : error C2440: 'initializing' : cannot convert from '' to 'int (__stdcall *)(unsigned int,unsigned int,unsigned char *,unsigned short *,unsigned int,struct HKL__ *)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7581) : error C2440: 'initializing' : cannot convert from '' to 'int (__stdcall *)(unsigned int,unsigned int,unsigned char *,unsigned short *,int,unsigned int)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7599) : error C2440: 'initializing' : cannot convert from '' to 'int (__stdcall *)(unsigned int,unsigned int,unsigned char *,unsigned short *,int,unsigned int,struct HKL__ *)'
+        None of the functions with this name in scope match the target type
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7811) : error C2199: syntax error : found 'SOCKET (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7818) : error C2199: syntax error : found 'INT (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7825) : error C2199: syntax error : found 'INT (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7893) : error C2065: 'WSACloseEvent' : undeclared identifier
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7893) : error C2440: 'initializing' : cannot convert from 'int' to 'int (__stdcall *)(void *)'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7896) : error C2199: syntax error : found 'int (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7905) : error C2065: 'WSACreateEvent' : undeclared identifier
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7905) : error C2440: 'initializing' : cannot convert from 'int' to 'void *(__stdcall *)(void)'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7908) : error C2199: syntax error : found 'int (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7913) : error C2199: syntax error : found 'int (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7918) : error C2199: syntax error : found 'INT (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7922) : error C2199: syntax error : found 'INT (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7926) : error C2199: syntax error : found 'int (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7931) : error C2199: syntax error : found 'int (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7936) : error C2199: syntax error : found 'int (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7941) : error C2065: 'WSAEventSelect' : undeclared identifier
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7941) : error C2440: 'initializing' : cannot convert from 'int' to 'int (__stdcall *)(unsigned int,void *,long)'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7946) : error C2199: syntax error : found 'BOOL (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7953) : error C2199: syntax error : found 'BOOL (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7958) : error C2199: syntax error : found 'INT (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7964) : error C2199: syntax error : found 'INT (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7970) : error C2065: 'WSAGetServiceClassNameByClassIdA' : undeclared identifier
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7970) : error C2440: 'initializing' : cannot convert from 'int' to 'int (__stdcall *)(struct _GUID *,char *,unsigned long *)'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7975) : error C2065: 'WSAGetServiceClassNameByClassIdW' : undeclared identifier
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7975) : error C2440: 'initializing' : cannot convert from 'int' to 'int (__stdcall *)(struct _GUID *,unsigned short *,unsigned long *)'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7980) : error C2065: 'WSAHtonl' : undeclared identifier
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7980) : error C2440: 'initializing' : cannot convert from 'int' to 'int (__stdcall *)(unsigned int,unsigned long,unsigned long *)'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7985) : error C2065: 'WSAHtons' : undeclared identifier
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7985) : error C2440: 'initializing' : cannot convert from 'int' to 'int (__stdcall *)(unsigned int,unsigned short,unsigned short *)'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7990) : error C2199: syntax error : found 'INT (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7993) : error C2199: syntax error : found 'INT (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(7996) : error C2199: syntax error : found 'int (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8010) : error C2199: syntax error : found 'SOCKET (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8020) : error C2199: syntax error : found 'INT (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8025) : error C2199: syntax error : found 'INT (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8030) : error C2065: 'WSALookupServiceEnd' : undeclared identifier
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8030) : error C2440: 'initializing' : cannot convert from 'int' to 'int (__stdcall *)(void *)'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8033) : error C2199: syntax error : found 'INT (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8039) : error C2199: syntax error : found 'INT (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8045) : error C2065: 'WSANtohl' : undeclared identifier
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8045) : error C2440: 'initializing' : cannot convert from 'int' to 'int (__stdcall *)(unsigned int,unsigned long,unsigned long *)'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8050) : error C2065: 'WSANtohs' : undeclared identifier
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8050) : error C2440: 'initializing' : cannot convert from 'int' to 'int (__stdcall *)(unsigned int,unsigned short,unsigned short *)'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8055) : error C2199: syntax error : found 'INT (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8060) : error C2199: syntax error : found 'int (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8069) : error C2199: syntax error : found 'int (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8073) : error C2199: syntax error : found 'int (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8084) : error C2065: 'WSARemoveServiceClass' : undeclared identifier
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8084) : error C2440: 'initializing' : cannot convert from 'int' to 'int (__stdcall *)(struct _GUID *)'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8087) : error C2065: 'WSAResetEvent' : undeclared identifier
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8087) : error C2440: 'initializing' : cannot convert from 'int' to 'int (__stdcall *)(void *)'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8090) : error C2199: syntax error : found 'int (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8099) : error C2199: syntax error : found 'int (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8103) : error C2199: syntax error : found 'int (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8117) : error C2065: 'WSASetEvent' : undeclared identifier
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8117) : error C2440: 'initializing' : cannot convert from 'int' to 'int (__stdcall *)(void *)'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8120) : error C2199: syntax error : found 'INT (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8125) : error C2199: syntax error : found 'INT (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8130) : error C2199: syntax error : found 'SOCKET (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8138) : error C2199: syntax error : found 'SOCKET (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8150) : error C2199: syntax error : found 'INT (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8157) : error C2199: syntax error : found 'INT (' at global scope (was a declaration intended?)
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8167) : error C2065: 'WSAWaitForMultipleEvents' : undeclared identifier
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8167) : error C2440: 'initializing' : cannot convert from 'int' to 'unsigned long (__stdcall *)(unsigned long,void *const * ,int,unsigned long,int)'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\cygwin\home\occulteast\project\Imatinib\Imatinib\_win32.h(8372) : error C2440: 'initializing' : cannot convert from '' to 'int (__stdcall *)(void *,void *,void *,unsigned long,unsigned long *)'
+        None of the functions with this name in scope match the target type
+DllMain.cpp
+HelperFunctions.cpp
+IniFileHandlers.cpp
+MemorySearchFunctions.cpp
+psapi.cpp
+ReverseCodeEngine.cpp
+ServerStartStop.cpp
+toolhelp.cpp
+Generating Code...
+Error executing cl.exe.
+Creating temporary file "C:\Users\OCCULT~1\AppData\Local\Temp\RSP77E7.tmp" with contents
+[
+/nologo /o"Release/Imatinib.bsc" 
+.\Release\Detours.sbr
+.\Release\DllMain.sbr
+.\Release\HelperFunctions.sbr
+.\Release\IniFileHandlers.sbr
+.\Release\MemorySearchFunctions.sbr
+.\Release\psapi.sbr
+.\Release\ReverseCodeEngine.sbr
+.\Release\ServerStartStop.sbr
+.\Release\toolhelp.sbr]
+Creating command line "bscmake.exe @C:\Users\OCCULT~1\AppData\Local\Temp\RSP77E7.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Imatinib.dll - 98 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
